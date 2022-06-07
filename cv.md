@@ -16,8 +16,9 @@ Hi, my name is Anatoly and I am currently working as a leading engineer at a pha
 * CorelDraw 
 * 3ds Max 
 * Figma
-## Code Example
-``` function goPlay() 
+## Code Example and Experience
+``` 
+function goPlay() 
 {
 	var dir = document.getElementById("zvuk");
 	var audio = document.querySelectorAll("audio");
@@ -38,5 +39,12 @@ Hi, my name is Anatoly and I am currently working as a leading engineer at a pha
 
 
 You can see the whole code by following the links:
-- [final project "Animation"](https://github.com/zdan3v1ch/ip-animate)
-- [final project "EasyBreezy"](https://github.com/zdan3v1ch/easybreezy) and also you can get acquainted with [this project on the Internet](https://easybreezy.h1n.ru/)
+* [final project "Animation"](https://github.com/zdan3v1ch/ip-animate)
+* [final project "EasyBreezy"](https://github.com/zdan3v1ch/easybreezy) and also you can get acquainted with [this project on the Internet](https://easybreezy.h1n.ru/)
+
+## Education
+* **University:** Belarusian State Technological University, School of Business of Belarusian State University (retraining program "Web design and computer graphics")
+* **College:** Brest State Polytechnic College
+## English 
+My English level is according to [examinator.epam.com](https://examinator.epam.com) A1. 
+I am currently continuing to learn English using the Duolingo and English Galaxy apps
