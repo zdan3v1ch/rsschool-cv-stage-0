@@ -1,11 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <div>
+            <img>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a>Contacts</a>
+                </li>
+                <li>
+                    <a>About me</a>
+                </li>
+                <li>
+                    <a>Skils</a>
+                </li>
+                <li>
+                    <a>Code Example and Experience</a>
+                </li>
+                <li>
+                    <a>Education</a>
+                </li>
+                <li>
+                    <a>English</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div>
+            <h2>Contacts</h2>
+            <ul>
+                <li>Email:
+                    <a target="_blank" href="malito: anatoli.zdanevich@gmail.com">anatoli.zdanevich@gmail.com</a>
+                </li>
+                <li>Phone:
+                    <a target="_blank" href="tel: +375333872861">+375333872861</a>
+                </li>
+                <li>Github:
+                    <a target="_blank" href="https://github.com/zdan3v1ch">zdan3v1ch</a>
+                </li>
+                <li>LinkedIn:<a target="_blank" href="https://www.linkedin.com/in/anatoli-zdanevich/">Анатолий Зданевич
+                    </a></li>
+            </ul>
+        </div>
+
+
+        <div>
+            <h2>About me</h2>
+            <p> Hi, my name is Anatoly and I am currently working as a leading engineer at a pharmaceutical company. In
+                my free time I play basketball, study web development and English. I want to work in a large foreign
+                company and see it from the inside. I try to look at things from different angles, analyze the
+                information received and draw conclusions.
+            </p>
+        </div>
+        <div>
+            <h2>Skils</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JS</li>
+                <li>WordPress</li>
+                <li>Php</li>
+                <li>Adobe Photoshop</li>
+                <li>CorelDraw</li>
+                <li>3ds Max</li>
+                <li>Figma</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Code Example and Experience</h2>
+            <pre>
+                function goPlay() 
+                {
+                    var dir = document.getElementById("zvuk");
+                    var audio = document.querySelectorAll("audio");
+                       
+                    if(audio[0].paused) 
+                    {
+                        audio[0].play();
+                        dir.style.backgroundImage = "url('./icons/on.png')";
+                    } 
+                    else
+                    {	
+                        audio[0].pause();
+                        dir.style.backgroundImage = "url('./icons/off.png')";
+                    }
+                }
+            </pre>
+            <p>You can see the whole code by following the links:</p>
+            <ul>
+                <li><a target="_blank">final project "Animation"</a></li>
+                <li><a target="_blank">final project "EasyBreezy"</a>and also you can get acquainted with <a
+                        target="_blank">this project on the
+                        Internet</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Education</h2>
+            <ul>
+                <li>University: Belarusian State Technological University, School of Business of Belarusian State
+                    University (retraining program "Web design and computer graphics")</li>
+                <li>College: Brest State Polytechnic College</li>
+            </ul>
+        </div>
+        <div>
+            <h2>English</h2>
+            <p>My English level is according to examinator.epam.com A1. I am currently ontinuing to learn English using
+                the Duolingo and English Galaxy apps
+            </p>
+        </div>
+    </main>
+    <footer>
+        <a target="_blank" href="https://github.com/zdan3v1ch">My GitHub</a>
+        <p>2022</p>
+        <a href="https://rs.school/js/" target="_blank"></a>
+    </footer>
 </body>
+
 </html>
