@@ -5,60 +5,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anatoly Zdanevich CV</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <div>
-            <img>
-        </div>
         <nav>
             <ul>
                 <li>
-                    <a>Contacts</a>
+                    <a href="#contacts">Contacts</a>
                 </li>
                 <li>
-                    <a>About me</a>
+                    <a href="#about-me">About me</a>
                 </li>
                 <li>
-                    <a>Skils</a>
+                    <a href="#skils">Skils</a>
                 </li>
                 <li>
-                    <a>Code Example and Experience</a>
+                    <a href="#code-example">Code Example and Experience</a>
                 </li>
                 <li>
-                    <a>Education</a>
+                    <a href="#education">Education</a>
                 </li>
                 <li>
-                    <a>English</a>
+                    <a href="#english">English</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-
+        <div class="left-side">
         <div>
-            <h2>Contacts</h2>
+            <img src="./img/myphoto.png" alt="my-photo">
+        </div>
+        <div>
+            <h2 id="contacts">Contacts</h2>
             <ul>
                 <li>Email:
-                    <a target="_blank" href="malito: anatoli.zdanevich@gmail.com">anatoli.zdanevich@gmail.com</a>
+                    <a href="malito:anatoli.zdanevich@gmail.com">anatoli.zdanevich@gmail.com</a>
                 </li>
                 <li>Phone:
-                    <a target="_blank" href="tel: +375333872861">+375333872861</a>
+                    <a href="tel:+375333872861">+375333872861</a>
                 </li>
                 <li>Github:
-                    <a target="_blank" href="https://github.com/zdan3v1ch">zdan3v1ch</a>
+                    <a href="https://github.com/zdan3v1ch" target="_blank">zdan3v1ch</a>
                 </li>
-                <li>LinkedIn:<a target="_blank" href="https://www.linkedin.com/in/anatoli-zdanevich/">Анатолий Зданевич
+                <li>LinkedIn:<a href="https://www.linkedin.com/in/anatoli-zdanevich/" target="_blank">Анатолий Зданевич
                     </a></li>
             </ul>
         </div>
-
-
         <div>
-            <h2>About me</h2>
+            <h2 id="education">Education</h2>
+            <ul>
+                <li>University: Belarusian State Technological University, School of Business of Belarusian State
+                    University (retraining program "Web design and computer graphics")</li>
+                <li>College: Brest State Polytechnic College</li>
+            </ul>
+        </div>
+    </div>
+    <div class="right-side">
+        <div>
+            <h2 id="about-me">About me</h2>
             <p> Hi, my name is Anatoly and I am currently working as a leading engineer at a pharmaceutical company. In
                 my free time I play basketball, study web development and English. I want to work in a large foreign
                 company and see it from the inside. I try to look at things from different angles, analyze the
@@ -66,7 +75,7 @@
             </p>
         </div>
         <div>
-            <h2>Skils</h2>
+            <h2 id="skils">Skils</h2>
             <ul>
                 <li>HTML5</li>
                 <li>CSS3</li>
@@ -80,7 +89,7 @@
             </ul>
         </div>
         <div>
-            <h2>Code Example and Experience</h2>
+            <h2 id="code-example">Code Example and Experience</h2>
             <pre>
                 function goPlay() 
                 {
@@ -101,31 +110,26 @@
             </pre>
             <p>You can see the whole code by following the links:</p>
             <ul>
-                <li><a target="_blank">final project "Animation"</a></li>
-                <li><a target="_blank">final project "EasyBreezy"</a>and also you can get acquainted with <a
-                        target="_blank">this project on the
+                <li><a href="https://github.com/zdan3v1ch/ip-animate" target="_blank">final project "Animation"</a></li>
+                <li><a href="https://github.com/zdan3v1ch/easybreezy" target="_blank">final project "EasyBreezy"</a>and
+                    also you can get acquainted with <a href="https://easybreezy.h1n.ru" target="_blank">this project on
+                        the
                         Internet</a></li>
             </ul>
         </div>
         <div>
-            <h2>Education</h2>
-            <ul>
-                <li>University: Belarusian State Technological University, School of Business of Belarusian State
-                    University (retraining program "Web design and computer graphics")</li>
-                <li>College: Brest State Polytechnic College</li>
-            </ul>
-        </div>
-        <div>
-            <h2>English</h2>
+            <h2 id="english">English</h2>
             <p>My English level is according to examinator.epam.com A1. I am currently ontinuing to learn English using
                 the Duolingo and English Galaxy apps
             </p>
         </div>
+    </div>
+       
     </main>
     <footer>
         <a target="_blank" href="https://github.com/zdan3v1ch">My GitHub</a>
         <p>2022</p>
-        <a href="https://rs.school/js/" target="_blank"></a>
+        <a class="rss" href="https://rs.school/js/" target="_blank"></a>
     </footer>
 </body>
 

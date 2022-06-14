@@ -1,0 +1,27 @@
+nav ul, footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+main, footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rss {
+    width: 100px;
+    height: 40px;
+    background: url(/rsschool-cv/img/rs_school_js.svg) no-repeat;
+}
+footer, header {
+    background-color: aquamarine;
+    height: 10vh;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
