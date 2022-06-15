@@ -16,8 +16,9 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#contacts">Contacts</a>
+                    <a href="#education">Education</a>
                 </li>
+
                 <li>
                     <a href="#about-me">About me</a>
                 </li>
@@ -27,11 +28,12 @@
                 <li>
                     <a href="#code-example">Code Example and Experience</a>
                 </li>
-                <li>
-                    <a href="#education">Education</a>
-                </li>
+
                 <li>
                     <a href="#english">English</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
                 </li>
             </ul>
         </nav>
@@ -41,7 +43,18 @@
             <div>
                 <img src="./img/myphoto.png" alt="my-photo">
             </div>
-            <div>
+            <div class="block">
+                <h2 id="education">Education</h2>
+                <ul>
+                    <li>University:</li>
+                    <p>Belarusian State Technological University, School of Business of Belarusian State
+                        University (retraining program "Web design and computer graphics")</p>
+                    <li>College:</li><p>Brest State Polytechnic College</p>
+                </ul>
+            </div>
+
+
+            <div class="block">
                 <h2 id="contacts">Contacts</h2>
                 <ul>
                     <li>Email:
@@ -58,17 +71,9 @@
                         </a></li>
                 </ul>
             </div>
-            <div>
-                <h2 id="education">Education</h2>
-                <ul>
-                    <li>University: Belarusian State Technological University, School of Business of Belarusian State
-                        University (retraining program "Web design and computer graphics")</li>
-                    <li>College: Brest State Polytechnic College</li>
-                </ul>
-            </div>
         </div>
         <div class="right-side">
-            <div>
+            <div class="block">
                 <h2 id="about-me">About me</h2>
                 <p> Hi, my name is Anatoly and I am currently working as a leading engineer at a pharmaceutical company.
                     In
@@ -77,9 +82,9 @@
                     information received and draw conclusions.
                 </p>
             </div>
-            <div>
+            <div class="block">
                 <h2 id="skils">Skils</h2>
-                <ul>
+                <ul class="skils">
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>JS</li>
@@ -91,21 +96,21 @@
                     <li>Figma</li>
                 </ul>
             </div>
-            <div>
+            <div class="block">
                 <h2 id="code-example">Code Example and Experience</h2>
                 <pre>
-                function goPlay() 
+                function goPlay()
                 {
                     var dir = document.getElementById("zvuk");
                     var audio = document.querySelectorAll("audio");
-                       
-                    if(audio[0].paused) 
+
+                    if(audio[0].paused)
                     {
                         audio[0].play();
                         dir.style.backgroundImage = "url('./icons/on.png')";
-                    } 
+                    }
                     else
-                    {	
+                    {
                         audio[0].pause();
                         dir.style.backgroundImage = "url('./icons/off.png')";
                     }
@@ -123,7 +128,7 @@
                             Internet</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="block">
                 <h2 id="english">English</h2>
                 <p>My English level is according to examinator.epam.com A1. I am currently ontinuing to learn English
                     using

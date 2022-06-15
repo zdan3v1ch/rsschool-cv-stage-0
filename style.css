@@ -1,9 +1,66 @@
+body {
+    margin: 0 10vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+p {
+    margin-left: 30px;
+    font-size: 18px;
+
+}
+.skils li {
+    font-family: cursive;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+    list-style-type: disc;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side, .right-side {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.left-side {
+    width: 250px;
+}
+nav {
+    width: 100%;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 20px 50px;
+}
+
 nav ul, footer {
     display: flex;
     justify-content: space-around;
 }
+a {
+    text-decoration: none;
+    color: #405254;
+    font-size: 18px;
+}
+li {
+    font-size: 18px;
+}
+nav ul li a {
+    font-size: 20px;
 
-main, footer {
+}
+nav ul li a:hover, a:hover {
+    color: chocolate;
+}
+
+footer {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,17 +68,17 @@ main, footer {
 .rss {
     width: 100px;
     height: 40px;
-    background: url(/rsschool-cv/img/rs_school_js.svg) no-repeat;
+    background: url(./img/rs_school_js.svg) no-repeat;
 }
 footer, header {
-    background-color: aquamarine;
+    background-color: #fea;
     height: 10vh;
 }
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
+
 main {
+    display: flex;
     flex: 1;
+}
+.block {
+    margin: 20px 0;
 }
