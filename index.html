@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatoly Zdanevich CV</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#education">Education</a>
+                </li>
+
+                <li>
+                    <a href="#about-me">About me</a>
+                </li>
+                <li>
+                    <a href="#skils">Skils</a>
+                </li>
+                <li>
+                    <a href="#code-example">Code Example and Experience</a>
+                </li>
+
+                <li>
+                    <a href="#english">English</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left-side">
+            <div>
+                <img src="./img/myphoto.png" alt="my-photo">
+            </div>
+            <div class="block">
+                <h2 id="education">Education</h2>
+                <ul class="education">
+                    <li><p>University:</p>
+                    <a href="https://www.belstu.by/" target="_blank">Belarusian State Technological University, </a><a
+                        href="https://sb.bsu.by/dopolnitelnoe-obrazovanie/perepodgotovka/web-dizain-i-kompiuternaia-grafika"
+                        target="_blank">School of Business of Belarusian State
+                        University (retraining program "Web design and computer graphics")</a></li>
+                    <li><p>College:</p>
+                    <a href="http://www.bspc.bstu.by/ru/home" target="_blank">Brest State Polytechnic College</a></li>
+                </ul>
+            </div>
+
+
+            <div class="block">
+                <h2 id="contacts">Contacts</h2>
+                <ul class="contacts">
+                    <li>Email:
+                        <a href="malito:anatoli.zdanevich@gmail.com">anatoli.zdanevich@gmail.com</a>
+                    </li>
+                    <li>Phone:
+                        <a href="tel:+375333872861">+375333872861</a>
+                    </li>
+                    <li>Github:
+                        <a href="https://github.com/zdan3v1ch" target="_blank">zdan3v1ch</a>
+                    </li>
+                    <li>LinkedIn:<a href="https://www.linkedin.com/in/anatoli-zdanevich/" target="_blank">Анатолий
+                            Зданевич
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="block">
+                <h2 id="about-me">About me</h2>
+                <p> Hi, my name is Anatoly and I am currently working as a leading engineer at a pharmaceutical company.
+                    In
+                    my free time I play basketball, study web development and English. I want to work in a large foreign
+                    company and see it from the inside. I try to look at things from different angles, analyze the
+                    information received and draw conclusions.
+                </p>
+            </div>
+            <div class="block">
+                <h2 id="skils">Skils</h2>
+                <ul class="skils">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JS</li>
+                    <li>WordPress</li>
+                    <li>Php</li>
+                    <li>Adobe Photoshop</li>
+                    <li>CorelDraw</li>
+                    <li>3ds Max</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+            <div class="block">
+                <h2 id="code-example">Code Example and Experience</h2>
+                <pre>
+    function goPlay()
+    {
+        var dir = document.getElementById("zvuk");
+        var audio = document.querySelectorAll("audio");
+
+        if(audio[0].paused)
+        {
+            audio[0].play();
+            dir.style.backgroundImage = "url('./icons/on.png')";
+        }
+        else
+        {
+            audio[0].pause();
+            dir.style.backgroundImage = "url('./icons/off.png')";
+        }
+    }
+            </pre>
+                <p>You can see the whole code by following the links:</p>
+                <ul class="projects">
+                    <li><a href="https://github.com/zdan3v1ch/ip-animate" target="_blank">project "Animation";</a>
+                    </li>
+                    <li><a href="https://github.com/zdan3v1ch/easybreezy" target="_blank">project
+                            "EasyBreezy"</a>and
+                        also you can get acquainted with <a href="https://easybreezy.h1n.ru" target="_blank">this
+                            project on
+                            the
+                            Internet.</a></li>
+                </ul>
+            </div>
+            <div class="block">
+                <h2 id="english">English</h2>
+                <p>My English level is according to examinator.epam.com A1. I am currently ontinuing to learn English
+                    using
+                    the Duolingo and English Galaxy apps
+                </p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <a target="_blank" href="https://github.com/zdan3v1ch">My GitHub</a>
+        <p>2022</p>
+        <a class="rss" href="https://rs.school/js/" target="_blank"></a>
+    </footer>
